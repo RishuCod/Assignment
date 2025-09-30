@@ -1,0 +1,4 @@
+GET -/welcome - Tue, 30 Sep 2025 04:02:02 GMT - 359.660 ms
+GET -/favicon.ico - Tue, 30 Sep 2025 04:02:02 GMT - 1.249 ms
+GET -/register/? - Tue, 30 Sep 2025 04:02:04 GMT - 21.050 ms
+GET -/welcome/? - Tue, 30 Sep 2025 04:02:07 GMT - 335.347 ms

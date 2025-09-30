@@ -1,0 +1,21 @@
+//- Welcome page template
+doctype html
+html
+    head
+        title Simple Form
+        style.
+            .inbox {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-top: 20px;
+                width: 200px;
+                font-family: Arial, sans-serif;
+            }
+    body
+        .inbox
+            | Welcome To Yaatri.com
+        br
+        //- Form to navigate to registration page
+        form(action='/register/')
+            button(type="submit") New User
+            button(type="button") Sign In

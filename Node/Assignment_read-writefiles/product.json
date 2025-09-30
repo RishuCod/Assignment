@@ -1,0 +1,19 @@
+[
+  { "name": "watch", "price": 4500 },
+  { "name": "headphones", "price": 3200 },
+  { "name": "smartphone", "price": 15000 },
+  { "name": "laptop", "price": 55000 },
+  { "name": "tablet", "price": 12000 },
+  { "name": "camera", "price": 20000 },
+  { "name": "smartwatch", "price": 8000 },
+  { "name": "speaker", "price": 3500 },
+  { "name": "keyboard", "price": 2500 },
+  { "name": "mouse", "price": 1500 },
+  { "name": "mobile", "price": "3000" },
+  { "name": "rishab", "price": "1" },
+  { "name": "tab ", "price": "2000" },
+  { "name": "kjd", "price": "43" },
+  { "name": "jfvdbkj", "price": "678" },
+  { "name": "jnvkjf", "price": "343" },
+  { "name": "dsnvlk", "price": "835" }
+]

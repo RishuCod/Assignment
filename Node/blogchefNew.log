@@ -1,0 +1,10 @@
+GET -/register? - Fri, 26 Sep 2025 10:39:10 GMT - 259.523 ms
+GET -/welcome? - Fri, 26 Sep 2025 10:39:18 GMT - 223.706 ms
+GET -/register? - Fri, 26 Sep 2025 10:39:19 GMT - 21.557 ms
+GET -/welcome? - Fri, 26 Sep 2025 10:39:57 GMT - 13.671 ms
+GET -/register/? - Fri, 26 Sep 2025 10:39:59 GMT - 18.347 ms
+GET -/welcome/? - Fri, 26 Sep 2025 10:40:00 GMT - 9.656 ms
+GET -/register/? - Fri, 26 Sep 2025 10:40:20 GMT - 286.281 ms
+GET -/welcome/? - Fri, 26 Sep 2025 10:40:22 GMT - 11.793 ms
+GET -/register/? - Fri, 26 Sep 2025 11:33:57 GMT - 465.359 ms
+GET -/welcome/? - Fri, 26 Sep 2025 11:34:04 GMT - 17.222 ms

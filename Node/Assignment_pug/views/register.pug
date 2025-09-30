@@ -1,0 +1,50 @@
+//- User registration form template
+doctype html
+html
+    head
+        title User Registration Form
+        style.
+            .inbox {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-top: 20px;
+                width: 250px;
+                font-family: Arial, sans-serif;
+            }
+            form {
+                margin-top: 20px;
+            }
+            label {
+                display: block;
+                margin: 8px 0 4px;
+            }
+            input {
+                padding: 6px;
+                width: 240px;
+                box-sizing: border-box;
+            }
+            button {
+                margin-top: 15px;
+                margin-right: 10px;
+                padding: 8px 15px;
+                cursor: pointer;
+            }
+    body
+        .inbox
+            | New user account creation
+        //- Registration form
+        form(action="/register/" method="post")
+            label(for="username") Username
+            input(type="text" id="username" name="username" required)
+            
+            label(for="email") Email Id
+            input(type="email" id="email" name="email" required)
+            
+            label(for="password") Password
+            input(type="password" id="password" name="password" required)
+            
+            button(type="submit") Register
+
+        //- Cancel form to go back to welcome page
+        form(action="/welcome/" method="get")
+            button(type="submit") Cancel
